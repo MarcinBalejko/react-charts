@@ -54,7 +54,11 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
-        <Chart chartData={this.state.chartData} legendPosition="bottom" />
+        <Chart
+          chartData={this.state.chartData}
+          location="Massachusetts"
+          legendPosition="bottom"
+        />
       </div>
     );
   }
